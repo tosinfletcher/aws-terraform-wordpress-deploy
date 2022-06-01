@@ -18,7 +18,7 @@ output "Database_Name" {
   value       = aws_db_instance.tfletcher_rds_mysql.db_name
 }
 
-output "Daatabase_Endpoint" {
+output "Database_Endpoint" {
   description = "IP address of the RDS mysql instance"
   value       = aws_db_instance.tfletcher_rds_mysql.endpoint
 }
